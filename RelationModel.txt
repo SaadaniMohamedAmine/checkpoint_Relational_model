@@ -1,0 +1,8 @@
+--This is the relational model for teh given ER model in
+the png file below 
+
+Hotel(Hotel_id,Hotel_name,#Type_id) 
+type(Type_id,type_name) 
+Employee(Employee_id,employee_name,Employee_speciality,"Hotel_id,#leads_id)
+Room(Room_id,Floor,#Hotel_id,#category_id)
+Category(Category_id,Category_name,price,beds_number)
